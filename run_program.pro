@@ -38,7 +38,7 @@ pro RUN_PROGRAM
   NTERMS = 41           ; number of filters used in Modulation Transfer Function (MTF).
   NCOEFF = 11           ; number of coefficients used in the interpolation. Default: 23 coefficients (2x11)+1.
   MS_NYQ = 0.30         ; default Nyquist frequency for a MS is 0.30.
-  PAN_NYQ = 0.30        ; default Nyquist frequency for a PAN is 0.305.
+  PAN_NYQ = 0.30        ; default Nyquist frequency for a PAN is 0.30.
 
   ; Load a Low Resolution MS (MSLR - not yet tested), MS, PAN, and GT images.
   i_ms_lr = LOAD_TIF('Pich up a Low Resulution Multispectral Image')
