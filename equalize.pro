@@ -20,7 +20,6 @@
 ;-
 
 function EQUALIZE, ms_img, pan_img
-  ;new_pan = (pan_img - MEAN(pan_img))+ MEAN(ms_img)
   new_pan = (pan_img - MEAN(pan_img))*(STDDEV(ms_img)/STDDEV(pan_img)) + MEAN(ms_img)
   RETURN, new_pan
 end
