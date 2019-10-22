@@ -3,7 +3,7 @@
 ;    pca_fus.pro
 ; PURPOSE:
 ;    ----------
-;    To resize a MS image by adjusting to PAN image
+;    To perform principal component analysis (PCA) based fusion using a multiband MS and panchromatic images.
 ; INPUT:
 ;    - I_MS           A 3-dimensional image data;
 ;    - I_PAN          Image data of 2-dimensions;
