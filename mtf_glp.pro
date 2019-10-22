@@ -6,7 +6,7 @@
 ;    This function is used to get a fused image with a Modulation Transfer.
 ; INPUT:
 ;    - MS_IMG         A MS Image (3 Dimensions);
-;    - PAN_IMG        A PAN Image (2 Dimension);
+;    - PAN_IMG        A PAN Image (2 Dimensions);
 ;    - MS_NYQ         The Nyquist frequencies for a multiband image (MS/GT);
 ;    - PAN_NYQ        The Nyquist frequency for a single band image (PAN);
 ;    - NTERMS         The number of filters MTF;
