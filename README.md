@@ -1,6 +1,6 @@
 # Pansharpening
 
-These codes are based on IDL 8.7.2 and ENVI 5.5.2.
+These codes are based on IDL 8.7.2 and ENVI 5.5.2 under Win 10 Home (64bit).
 
 The main code is run_program.pro by 
     ENVI> run_program
