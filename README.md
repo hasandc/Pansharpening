@@ -11,9 +11,10 @@ or press the run button under run_program.pro in the primary focused tab.
 The codes have been personally tested to meet the nearest requirements as in: 
 http://openremotesensing.net/knowledgebase/a-critical-comparison-among-pansharpening-algorithms/
 
-This version is the initial version meaning this version has the least adjustment with only Modulation Transfer Function and Generalized Laplacian Pyramid (MTF-GLP), High Pass Filtering (HPF), and Principal Component Analysis (PCA). Since this is the initial version, some further adjustments might be needed. I'll try to reply any question that you might will have immedieatly. But, if I don't, feel free to make the adjustment by yourself. Well, sometimes (or most of the times), my hands are quite full :)
+This version is the initial version meaning this version has the least adjustment with only Modulation Transfer Function and Generalized Laplacian Pyramid (MTF-GLP), High Pass Filtering (HPF), and Principal Component Analysis (PCA). Since this is the initial version, some further adjustments might be needed. I'll try to reply any question that you might will have immedieatly. But, if I don't, feel free to make your personal adjustment. Well, sometimes (or most of the times), my hands are quite full :)
 
-Drop me email at: nur.ichsan@gmail.com
+Drop me an email or two at: nur.ichsan@gmail.com
 
 Best wishes,
+
 Hasan
