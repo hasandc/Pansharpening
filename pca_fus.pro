@@ -16,7 +16,7 @@
 ;       Otherwise, a standard MTF filtering image is performed.
 ;
 ; OUTPUT:
-;    - i_upsampling
+;    - i_ms_transformed A transformed MS Image using PCA. 
 ;
 ; USAGE:
 ;       ENVI> A = PCA_FUS(I_MS, I_PAN[, /EQUALIZATION, /FUSION])
