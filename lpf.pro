@@ -30,10 +30,6 @@ function LPF, img, sigma, nterms
     kernelSize[0], kernelSize[1])
 
   ; Apply the filter to the image.
-  filteredImage = CONVOL(FLOAT(croppedImage), kernel, $
-    /CENTER, /EDGE_TRUNCATE)
-
-  ; Apply the filter to the image.
   filteredImage = GAUSS_SMOOTH(img, sigma, /EDGE_MIRROR, WIDTH=nterms)
 
   RETURN, filteredImage
