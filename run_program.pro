@@ -26,7 +26,7 @@ pro RUN_PROGRAM
   e = ENVI()
 
   ; base location of this project.
-  BASE_PATH = 'C:\\Users\\Hasan DC\\OneDrive\\Documents\\IDLWorkspace\\Project 1\\'
+  BASE_PATH = 'C:\\Users\\HasanDC\\Documents\\IDLWorkspace\\Project 1\\'
 
   ; directory to save every processed file.
   PATH_TO_SAVE_AFILE = BASE_PATH + '\\processed\\'
