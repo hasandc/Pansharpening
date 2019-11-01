@@ -11,17 +11,14 @@
 ;    - RATIO          Scalling ratio - the value should be at the power of two.
 ;
 ; KEYWORD PARAMETERS:
-;   QINDEX: If this keyword is set, a fusion between a high-pass filtered PAN and 
-;       a MS is performed. Otherwise, only the high-pass filtered PAN is returned.
+;   QINDEX: If this keyword is set, Q index value will be calculated. 
 ;
-;   SAM_INDEX: If set, causes a linearization to be used before performing a filtering.
-;       Otherwise, a standard high-pass filtering is performed.
+;   SAM_INDEX: If set, a calculation of SAM Index is performed.
 ;
-;   SAM_MAP: If set, causes a linearization to be used before performing a filtering.
-;       Otherwise, a standard high-pass filtering is performed.
+;   SAM_MAP: If set, causes a SAM-MAP value will be returned. 
+;       Precondition: SAM-INDEX is set.
 ;
-;   ERGAS_INDEX: If set, causes a linearization to be used before performing a filtering.
-;       Otherwise, a standard high-pass filtering is performed.
+;   ERGAS_INDEX: If set, causes ERGAS Index value is measure.
 ;       
 ; USAGE:
 ;       ENVI> A = EVALUATION, I_GT, I_REF, RATIO, QINDEX=qindex, SAM_INDEX=sam_index, $
