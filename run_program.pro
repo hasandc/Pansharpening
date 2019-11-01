@@ -7,11 +7,12 @@
 ;    The testing dataset is specifically designed to test the WorldView-2 dataset.
 ;    In order to run this program, a Multispectral (MS), Pansharpening (PAN), and
 ;    Groundtruth (GT) images are required. For testing purposes, Rio dataset (WorldView-2)
-;    consisting of those three images is explored.
+;    consisting of those three images is explored. Different type of datasets might need to
+;    additional adjustment.
 ;    
 ; REMARK:
-;    Every of these codes are made as closest as possible to its original Matlab version [Vivone14].
-;    For further detail, please do refers to:
+;    These codes are made as closest as possible to its original Matlab version [Vivone14].
+;    For further detail, please do refer to:
 ;    http://openremotesensing.net/knowledgebase/a-critical-comparison-among-pansharpening-algorithms/
 ;
 ; METHOD:
