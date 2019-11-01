@@ -13,7 +13,7 @@ http://openremotesensing.net/knowledgebase/a-critical-comparison-among-pansharpe
 
 This version is the initial version meaning this version has the least adjustment with only Modulation Transfer Function and Generalized Laplacian Pyramid (MTF-GLP), High Pass Filtering (HPF), and Principal Component Analysis (PCA). Since this is the initial version, some further adjustments might be needed. I'll try to reply any question that you might will have immedieatly. But, if I don't, feel free to make your personal adjustment. Well, sometimes (or most of the times), my hands are quite full :)
 
-Drop me an email or two at: nur.ichsan@gmail.com
+Drop me an email or two at: hasan.milist@gmail.com
 
 Best wishes,
 
