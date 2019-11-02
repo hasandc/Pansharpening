@@ -9,11 +9,11 @@
 ;    - I_PAN          Image data of 2-dimensions;
 ;
 ; KEYWORD PARAMETERS:
-;   EQUALIZATION: If set, causes a linear equalization to be used before performing a filtering.
-;       Otherwise, a MTF filtering is performed.
+;   EQUALIZATION: If set, causes a linear equalization to be used before performing the PAN image PCA injection
+;       onto the first band of projected MS Image. Otherwise, only the PAN image injection is performed.
 ;
 ;   FUSION: If set, a fusion of MS and filtered PAN is returned.
-;       Otherwise, a standard MTF filtering image is performed.
+;       Otherwise, a PCA transformed of MS image is performed.
 ;
 ; OUTPUT:
 ;    - i_ms_transformed A transformed MS Image using PCA. 
