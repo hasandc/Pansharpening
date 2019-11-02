@@ -13,7 +13,7 @@
 ;    - NTERM                The number of filters for Gaussian Smooting.
 ;
 ; OUTPUT:
-;    - image                An imaging data from a selected file (2-D or 3-D).
+;    - filteredImage        An imaging data from a selected file (2-D or 3-D).
 ;
 ; USAGE:
 ;       ENVI> A = LPF(IMG, SIGMA, NTERMS)
