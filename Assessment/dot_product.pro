@@ -3,8 +3,7 @@
 ;    dot_product.pro
 ; PURPOSE:
 ;    ----------
-;    To perform a pansharpening based on high-pass filtering algorithm. The 'average' filter is 
-;    used as the based of the high-pass filtering. 
+;    To perform dot product calculation on two distinct 3-dimentional data. 
 ;    
 ; INPUT:
 ;    - A, B           A 3-dimensional image data of data A and B.
