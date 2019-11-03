@@ -52,11 +52,10 @@ pro RUN_PROGRAM
   ms_dim = SIZE(i_ms_t)
   if (ms_dim[0] gt 2 && ms_dim[3] gt 1) then MS_NYQ = [MS_NYQ*REPLICATE(1, ms_dim[3])]
 
-  ; The non MSLR is set for the default MS since the MS has been processed.
-  ; code is used.
+  ; The non MSLR is set for the default MS since the MS image had been processed.
   i_ms_sharpened = i_ms_t
 
-  ; Default function when the MS has not been filtered and smoothed.
+  ; For unprocessed MS and/or PAN, these commented lines are used. 
   ; i_ms_sharpened = RESIZE_IMAGE(i_ms_t, i_pan_lr, RATIO, MS_NYQ, PAN_NYQ, NTERMS, $
   ;   NCOEFF, UPSAMPLING_PAN=i_pan_resized)
   ; i_pan_lr = i_pan_resized
