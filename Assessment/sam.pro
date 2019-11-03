@@ -3,13 +3,14 @@
 ;    sam.pro
 ; PURPOSE:
 ;    ----------
-;    To resize a MS image by adjusting to PAN image.
+;    To calculate the Spectral Angle Mapper (SAM) based on two different multispectal images.
+;
 ; INPUT:
 ;    - I_GTS          A ground truth image (multispectal);
 ;    - I_FUSED        A fused image (multispectral).
 ;
 ; KEYWORD PARAMETERS:
-;   sam_map: If this keyword is set, a SAM map will be return. Otherwise, only 
+;   sam_map: If this keyword is set, a SAM map and SAM Index will be returned. Otherwise, only 
 ;   SAM Index is returned.
 ;
 ; OUTPUT:
