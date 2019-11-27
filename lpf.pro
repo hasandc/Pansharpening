@@ -5,7 +5,7 @@
 ;    ----------
 ;    To perform a low-pass filtering of an image. A 3x3 kernel size is used on a centered and  
 ;    edge-truncated CONVOL command. This function is not yet tested. However, this function is   
-;    working as a low-pass filtering should based on Gaussian Smoothing.
+;    working as a low-pass filtering based on Gaussian Smoothing.
 ;
 ; INPUT:
 ;    - IMG                  A source image;
